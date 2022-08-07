@@ -1,0 +1,104 @@
+/* Etiquetas */
+p{
+    font-size: 14pt;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
+header{
+    background-color: rgb(0, 0, 0);
+}
+body{
+    background-color: #ffffff;
+    margin: 0;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+li{
+    list-style: none;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(74, 77, 253);
+}
+h1{
+    font-family: 'Cinzel', serif;
+    font-size: 40pt;
+    font-weight: 400;
+}
+
+/* Classes */
+.Menu{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+.letrablanca{
+    color: white;
+}
+.navbar{
+    padding: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.flex-container{
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+.img-size{
+    width: 40%;
+    height: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+.p-container{
+    justify-content: center;
+    align-items: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+/* IDs */
+#imgindx{
+    width: 100%;
+    height: auto;
+    max-width: 80%;
+    max-height: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#icin:hover{
+    color: rgb(190, 29, 230);
+}
+#icfa:hover{
+    color: rgb(0, 3, 187);
+}
+#ictw:hover{
+    color: rgb(0, 153, 255);
+}
+#icyo:hover{
+    color: rgb(200, 0, 0);
+}
